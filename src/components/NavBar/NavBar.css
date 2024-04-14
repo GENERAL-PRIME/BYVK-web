@@ -1,0 +1,114 @@
+* {
+  font-family: "open sans", sans-serif;
+}
+body {
+  background-color: #fff;
+  margin: 0;
+}
+nav .logo {
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+}
+nav .logo:hover {
+  transform: scale(1.1);
+  transition: 0.3s ease all;
+}
+.active {
+  background-color: rgb(24, 219, 27);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  position: sticky;
+  top: 0;
+  padding: 8px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li a {
+  display: block;
+  text-decoration: none;
+  color: black;
+  padding: 0.5rem;
+  margin: 0 0.5rem;
+  border-radius: 0.5rem;
+}
+
+nav ul li a:not(.active):hover {
+  background-color: rgb(223, 225, 223);
+  transform: scale(1.05);
+}
+
+nav .menu {
+  display: none;
+  position: absolute;
+  top: 0.75rem;
+  right: 0.5rem;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 2.25rem;
+  height: 2rem;
+}
+
+nav .menu span {
+  height: 0.4rem;
+  width: 100%;
+  background-color: black;
+  border-radius: 0.2rem;
+}
+
+@media (max-width: 480px) {
+  nav .menu {
+    display: flex;
+  }
+
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  nav ul {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 0.25rem;
+  }
+
+  nav ul.open {
+    display: flex;
+    padding: 0;
+  }
+
+  nav ul li {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: rgb(241, 235, 235);
+  }
+
+  nav ul li a {
+    margin: 0.5rem;
+  }
+
+  nav ul li a:not(.active):hover {
+    background-color: rgb(213, 239, 213);
+    transform: scale(1.03);
+    transition: 0.3s ease all;
+  }
+}

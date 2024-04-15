@@ -1,4 +1,5 @@
 import React from "react";
+import LeaveUsAText from "../../components/LeaveUsAText/LeaveUsAText";
 
 function About() {
   return (
@@ -98,6 +99,7 @@ function About() {
         Malorum" by Cicero are also reproduced in their exact original form,
         accompanied by English versions from the 1914 translation by H. Rackham.
       </p>
+      <LeaveUsAText />
     </div>
   );
 }

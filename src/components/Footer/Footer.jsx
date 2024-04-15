@@ -25,10 +25,13 @@ function Footer() {
         <a href="https://facebook.com" target="_blank">
           <img src={fblogo}></img>
         </a>
-        <a href="https://facebook.com" target="_blank">
+        <a href="https://instagram.com" target="_blank">
           <img src={instalogo}></img>
         </a>
-        <a href="https://facebook.com" target="_blank">
+        <a
+          href="https://www.youtube.com/@bengalyogauddyansciencesci4875"
+          target="_blank"
+        >
           <img src={ytlogo}></img>
         </a>
       </div>

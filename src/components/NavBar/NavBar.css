@@ -107,7 +107,7 @@ nav .menu span {
   }
 
   nav ul li a:not(.active):hover {
-    background-color: rgb(213, 239, 213);
+    background-color: rgb(241, 235, 235);
     transform: scale(1.03);
     transition: 0.3s ease all;
   }

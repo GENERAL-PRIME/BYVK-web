@@ -6,7 +6,7 @@ function AppRouter() {
   return (
     <Routes>
       {Object.values(NavLinks).map((link) => (
-        <Route key={link.to} path={link.to} element={link.element} />
+        <Route exact key={link.to} path={link.to} element={link.element} />
       ))}
     </Routes>
   );

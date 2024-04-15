@@ -3,16 +3,19 @@ import "./Footer.css";
 import fblogo from "../../assets/Images/facebook-svgrepo-com.svg";
 import ytlogo from "../../assets/Images/youtube-168-svgrepo-com.svg";
 import instalogo from "../../assets/Images/instagram-svgrepo-com.svg";
+import { NavLink } from "react-router-dom";
+import NavLinks from "../../assets/Data/NavLinks";
 
-const Footer = () => {
+function Footer() {
   return (
     <footer className="footer">
       <div className="links">
         <h3>Quick Links</h3>
-        <a href="">Home</a>
-        <a href="about">About</a>
-        <a href="activities">Activities</a>
-        <a href="contact">Contact</a>
+        {Object.values(NavLinks).map((link) => (
+          <NavLink key={link.to} to={link.to} className="footerLink">
+            {link.text}
+          </NavLink>
+        ))}
       </div>
       <div className="copyright">
         <p>&copy; {new Date().getFullYear()} Barasat Yoga Vigyan Kendra</p>
@@ -31,6 +34,6 @@ const Footer = () => {
       </div>
     </footer>
   );
-};
+}
 
 export default Footer;

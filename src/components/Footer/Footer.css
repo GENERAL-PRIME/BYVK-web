@@ -38,6 +38,11 @@ h3 {
   text-align: center;
 }
 
+.footerLink.active {
+  background-color: green;
+  border-radius: 10px;
+}
+
 .links {
   display: flex;
   flex-direction: column;

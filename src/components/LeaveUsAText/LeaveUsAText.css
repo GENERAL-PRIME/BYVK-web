@@ -1,0 +1,87 @@
+.leave-us {
+  max-width: 100%;
+  margin: 10px auto;
+  padding: 20px;
+}
+
+.leave-us h2 {
+  font-size: 35px;
+  margin-bottom: 15px;
+  color: rgb(32, 198, 32);
+  text-align: center;
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black,
+    1px 1px 0 black;
+  font-weight: bolder;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  letter-spacing: 3px;
+}
+
+.input-group {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 20px 55px;
+}
+
+.form-group {
+  margin: 10px 0;
+}
+
+.leave-us label {
+  display: flex;
+  justify-content: center;
+}
+
+.leave-us input[type="text"],
+.leave-us input[type="email"],
+.leave-us input[type="tel"],
+.leave-us textarea {
+  width: 85%;
+  padding: 8px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 2px solid #0fa116;
+  margin-bottom: 10px; /* Adjust according to your preference */
+}
+
+.leave-us input[type="text"]:hover,
+.leave-us input[type="email"]:hover,
+.leave-us input[type="tel"]:hover,
+.leave-us textarea:hover {
+  transform: scale(1.03);
+  transition: 0.3s ease-in-out all;
+}
+
+.leave-us textarea {
+  resize: none;
+}
+
+.leave-us button {
+  background-color: rgb(9, 155, 9);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.form-button {
+  display: flex;
+  justify-content: center;
+}
+
+.leave-us .text-area {
+  width: 100%;
+  margin: 10px 0;
+}
+
+.leave-us button:hover {
+  background-color: #155305;
+  transform: scale(1.03);
+  transition: 0.3s ease-in-out all;
+}
+
+::placeholder {
+  color: #024905;
+}

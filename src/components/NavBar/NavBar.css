@@ -15,7 +15,7 @@ nav .logo:hover {
   transition: 0.3s ease all;
 }
 .active {
-  background-color: rgb(24, 219, 27);
+  background-color: rgb(125, 207, 26);
 }
 
 nav {

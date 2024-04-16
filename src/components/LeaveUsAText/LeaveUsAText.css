@@ -7,7 +7,7 @@
 .leave-us h2 {
   font-size: 35px;
   margin-bottom: 15px;
-  color: rgb(32, 198, 32);
+  color: rgb(125, 207, 26);
   text-align: center;
   text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black,
     1px 1px 0 black;
@@ -40,7 +40,7 @@
   padding: 8px;
   font-size: 16px;
   border-radius: 5px;
-  border: 2px solid #0fa116;
+  border: 2px solid rgb(125, 207, 26);
   margin-bottom: 10px; /* Adjust according to your preference */
 }
 
@@ -57,7 +57,7 @@
 }
 
 .leave-us button {
-  background-color: rgb(9, 155, 9);
+  background-color: rgb(125, 207, 26);
   color: #fff;
   border: none;
   border-radius: 5px;
@@ -72,7 +72,7 @@
 }
 
 .leave-us .text-area {
-  width: 100%;
+  width: autos;
   margin: 10px 0;
 }
 
@@ -84,4 +84,19 @@
 
 ::placeholder {
   color: #024905;
+}
+
+@media (max-width: 480px) {
+  .input-group {
+    display: flex;
+    flex-direction: column;
+    margin: 0 20px;
+  }
+
+  .leave-us input[type="text"],
+  .leave-us input[type="email"],
+  .leave-us input[type="tel"],
+  .leave-us textarea {
+    width: 100%;
+  }
 }

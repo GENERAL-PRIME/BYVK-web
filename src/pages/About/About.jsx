@@ -1,5 +1,6 @@
 import React from "react";
 import LeaveUsAText from "../../components/LeaveUsAText/LeaveUsAText";
+import GetInTouch from "../../components/GetInTouch/GetInTouch";
 
 function About() {
   return (
@@ -99,6 +100,7 @@ function About() {
         Malorum" by Cicero are also reproduced in their exact original form,
         accompanied by English versions from the 1914 translation by H. Rackham.
       </p>
+      <GetInTouch />
       <LeaveUsAText />
     </div>
   );

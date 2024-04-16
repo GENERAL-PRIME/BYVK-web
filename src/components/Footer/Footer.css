@@ -1,7 +1,7 @@
 .footer {
   background-color: #333;
   color: #fff;
-  background-color: green;
+  background-color: rgb(36, 105, 9);
   padding: 20px;
   display: flex;
   flex-wrap: wrap;
@@ -39,7 +39,7 @@ h3 {
 }
 
 .footerLink.active {
-  background-color: green;
+  background-color: rgb(36, 105, 9);
   border-radius: 10px;
 }
 

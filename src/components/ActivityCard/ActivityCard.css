@@ -18,3 +18,17 @@
   width: 20px;
   height: 20px;
 }
+
+@media (max-width: 480px) {
+  .actCard {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 40px 10px;
+  }
+
+  .actCardItem {
+    width: 300px;
+  }
+}

@@ -2,7 +2,7 @@ import React from "react";
 import Home from "../../pages/Home/Home";
 import About from "../../pages/About/About";
 import Activities from "../../pages/Activities/Activities";
-import Conatact from "../../pages/Contact/Contact";
+import Classes from "../../pages/Classes/Classes";
 
 const NavLinks = {
   home: {
@@ -21,9 +21,9 @@ const NavLinks = {
     text: "Activities",
   },
   contact: {
-    to: "/contact",
-    element: <Conatact />,
-    text: "Contact Us",
+    to: "/classes",
+    element: <Classes />,
+    text: "Classes",
   },
 };
 

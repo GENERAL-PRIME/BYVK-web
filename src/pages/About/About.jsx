@@ -10,8 +10,6 @@ function About() {
     <div>
       <HeroPart backgroundImage={AbtImg} text="About" />
       <h1>About</h1>
-
-      <ActivityCard />
       <GetInTouch />
       <LeaveUsAText />
     </div>

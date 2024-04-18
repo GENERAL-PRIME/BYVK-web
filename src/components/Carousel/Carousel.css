@@ -1,6 +1,6 @@
 .carousel {
   display: flex;
-  height: 500px;
+  height: 600px;
   width: 100%;
   max-width: 100%;
 }
@@ -61,15 +61,16 @@
   font-size: 40px;
   top: 50%;
   transform: translate(0, -50%);
-  background-color: gainsboro;
+  background-color: rgba(0, 0, 0, 0.04);
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 30px;
+  width: 35px;
   height: 30px;
   border-radius: 50%;
   padding-bottom: 7px;
   cursor: pointer;
+  color: white;
 }
 
 .carousel_arrow_left {

@@ -1,24 +1,24 @@
-import carouselimg from "../../assets/Images/abtimg.jpeg";
+import carouselimg from "../Images/carousel.jpg";
 
 export const CarouselPicture = [
   {
-    image: { carouselimg },
+    image: carouselimg,
     title: "First Image",
   },
   {
-    image: { carouselimg },
+    image: carouselimg,
     title: "Second Image",
   },
   {
-    image: { carouselimg },
+    image: carouselimg,
     title: "Third Image",
   },
   {
-    image: { carouselimg },
+    image: carouselimg,
     title: "Fourth Image",
   },
   {
-    image: { carouselimg },
+    image: carouselimg,
     title: "Fifth Image",
   },
 ];

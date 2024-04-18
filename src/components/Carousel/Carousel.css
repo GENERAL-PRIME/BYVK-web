@@ -1,6 +1,6 @@
 .carousel {
   display: flex;
-  height: 400px;
+  height: 500px;
   width: 100%;
   max-width: 100%;
 }
@@ -52,6 +52,7 @@
 .card_title {
   color: white;
   font-size: 30px;
+  margin-bottom: 50px;
 }
 
 .carousel_arrow_left,
@@ -101,7 +102,7 @@
 }
 
 .pagination_dot-active {
-  background-color: steelblue;
+  background-color: rgb(125, 207, 26);
 }
 
 @media (max-width: 480px) {

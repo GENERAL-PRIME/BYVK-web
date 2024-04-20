@@ -11,7 +11,7 @@
 }
 
 .actCarditem h2 {
-  font-size: 30px;
+  font-size: 40px;
   font-weight: bold;
 }
 .actCarditem p {
@@ -20,7 +20,7 @@
   font-weight: 40;
   line-height: 1.5;
   font-weight: lighter;
-  font-size: 17px;
+  font-size: 20px;
 }
 
 .actCarditem img {
@@ -48,5 +48,31 @@
     width: 100%;
     display: flex;
     flex-direction: column;
+  }
+}
+
+@media (max-width: 960px) {
+  .actCard {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 40px 20px;
+  }
+
+  .actCarditem {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .actCarditem p {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .actCarditem p {
+    font-size: 15px;
   }
 }

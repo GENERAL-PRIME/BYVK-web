@@ -6,6 +6,8 @@ import { CarouselPicture } from "../../assets/Data/CarouselPic";
 import Gallery from "../../components/Gallery/Gallery";
 import VideoCard from "../../components/VideoCard/VideoCard";
 import VideoLinks from "../../assets/Data/VideoLinks";
+import AboutUs from "../../components/AboutUs/AboutUs";
+import homeimg from "../../assets/Images/home.jpg";
 
 function Home() {
   return (
@@ -13,6 +15,11 @@ function Home() {
       <Carousel images={CarouselPicture} />
       <h1>Home</h1>
       <p>This is the home page</p>
+      <AboutUs
+        image={homeimg}
+        title="Who we are"
+        text="We are a group of people who are passionate about web development. We are here to help you with your web development needs."
+      />
       <Gallery />
       <VideoCard object={VideoLinks} />
       <GetInTouch />

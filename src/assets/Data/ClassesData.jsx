@@ -1,6 +1,4 @@
-import React from "react";
 import classimg from "../Images/carousel.jpg";
-import { createContext } from "react";
 
 const ClassData = {
   class1: {

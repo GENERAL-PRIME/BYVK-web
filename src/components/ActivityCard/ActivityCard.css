@@ -2,12 +2,12 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin: 80px 80px;
+  margin: 50px 80px;
 }
 
 .actCarditem {
   width: 48%; /* Adjust width as needed */
-  margin: 25px 0; /* Adjust margin as needed */
+  margin: 5px 0; /* Adjust margin as needed */
 }
 
 .actCarditem h2 {

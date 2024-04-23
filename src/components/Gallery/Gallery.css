@@ -1,0 +1,17 @@
+.container .collage {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.collage-row {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  flex-wrap: nowrap;
+}
+
+.collage-column img {
+  margin: 10px 20px;
+}

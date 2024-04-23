@@ -8,7 +8,7 @@ import image5 from "../../assets/Images/fff4.png";
 
 function Gallery() {
   return (
-    <div>
+    <div className="container">
       <h1>Gallery</h1>
       <p>This is the gallery page</p>
       <div className="collage">

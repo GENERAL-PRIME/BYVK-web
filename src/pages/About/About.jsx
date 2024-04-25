@@ -7,10 +7,12 @@ import AboutUs from "../../components/AboutUs/AboutUs";
 import VideoCard from "../../components/VideoCard/VideoCard";
 import AboutVideoLinks from "../../assets/Data/VdoLinkAbout";
 import aboutusimg from "../../assets/Images/long.jpg";
+import ResponsiveTitle from "../../components/ResponsiveTitle/ResponsiveTitle";
 
 function About() {
   return (
     <div>
+      <ResponsiveTitle websiteName="BYVK" pageTitle="About" />
       <HeroPart backgroundImage={AbtImg} text="About" />
       <AboutUs
         image={aboutusimg}

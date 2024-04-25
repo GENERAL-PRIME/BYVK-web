@@ -8,10 +8,12 @@ import VideoCard from "../../components/VideoCard/VideoCard";
 import VideoLinks from "../../assets/Data/VideoLinks";
 import AboutUs from "../../components/AboutUs/AboutUs";
 import homeimg from "../../assets/Images/home.jpg";
+import ResponsiveTitle from "../../components/ResponsiveTitle/ResponsiveTitle";
 
 function Home() {
   return (
     <div>
+      <ResponsiveTitle websiteName="BYVK" pageTitle="Home" />
       <Carousel images={CarouselPicture} />
       <h1>Home</h1>
       <p>This is the home page</p>

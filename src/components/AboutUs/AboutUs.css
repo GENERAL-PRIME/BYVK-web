@@ -32,3 +32,18 @@ img {
 }
 
 /* Add more styling as needed */
+@media screen and (max-width: 900px) {
+  .about-us-container {
+    padding: 10px 0;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .about-us-container {
+    flex-direction: column;
+    margin: 10px 0;
+  }
+  .text-container h2 {
+    text-align: center;
+  }
+}

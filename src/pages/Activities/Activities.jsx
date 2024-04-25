@@ -6,9 +6,11 @@ import AbtImg from "../../assets/Images/carousel.jpg";
 import ActivityCard from "../../components/ActivityCard/ActivityCard";
 import ActivityData from "../../assets/Data/ActivityData.jsx";
 import "./Activities.css";
+import ResponsiveTitle from "../../components/ResponsiveTitle/ResponsiveTitle";
 export default function Activities() {
   return (
     <div>
+      <ResponsiveTitle websiteName="BYVK" pageTitle="Activities" />
       <HeroPart text="Activities" backgroundImage={AbtImg} />
       <h1>Our Activities</h1>
       <p>

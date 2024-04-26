@@ -1,3 +1,4 @@
+import React from "react";
 import LeaveUsAText from "../../components/LeaveUsAText/LeaveUsAText";
 import GetInTouch from "../../components/GetInTouch/GetInTouch";
 import AbtImg from "../../assets/Images/carousel.jpg";

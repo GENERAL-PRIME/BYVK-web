@@ -1,4 +1,3 @@
-import React from "react";
 import LeaveUsAText from "../../components/LeaveUsAText/LeaveUsAText";
 import GetInTouch from "../../components/GetInTouch/GetInTouch";
 import HeroPart from "../../components/HeroPart/HeroPart";
